@@ -9,14 +9,13 @@ const Courses = () => {
     useEffect(() => {
         fetch('courses.json')
         .then(response => response.json())
-        .then(data => console.log(data))
+        .then(data => setCourses(data))
     },[])
     return (
-        <div className="grid grid-cols-3 col-span-3">
-            <Course></Course>
-            <Course></Course>
-            <Course></Course>
-            <Course></Course>
+        <div className="grid grid-cols-3 gap-4 col-span-3">
+            {
+                courses.map(course => <Course key={course.id} course={course}></Course>)
+            }
         </div>
     );
 };
