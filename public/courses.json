@@ -1,0 +1,75 @@
+[
+    {
+      "id": "C101",
+      "image": "https://i.ibb.co/JB40cNX/course-image-1.webp",
+      "title": "Introduction to Programming",
+      "credit_hour": 3,
+      "price": 199.99,
+      "course_details": "This course provides a comprehensive introduction to programming concepts and techniques. Topics include variables, data types, control structures, algorithms, and more."
+    },
+    {
+      "id": "C102",
+      "image": "https://i.ibb.co/GCs7XQQ/course-image-2.webp",
+      "title": "Web Development Fundamentals",
+      "credit_hour": 4,
+      "price": 249.99,
+      "course_details": "Learn the fundamentals of web development, including HTML, CSS, and JavaScript. Build and deploy your own websites and web applications."
+    },
+    {
+      "id": "C103",
+      "image": "https://i.ibb.co/0MgCPg3/course-image-3.webp",
+      "title": "Data Science and Machine Learning",
+      "credit_hour": 5,
+      "price": 299.99,
+      "course_details": "Explore the world of data science and machine learning. Gain hands-on experience in data analysis, visualization, and predictive modeling."
+    },
+    {
+      "id": "C104",
+      "image": "https://i.ibb.co/xhLk4ks/course-image-4.webp",
+      "title": "Graphic Design Basics",
+      "credit_hour": 3,
+      "price": 179.99,
+      "course_details": "Learn the basics of graphic design, including principles of layout, typography, and color theory. Create stunning visual designs."
+    },
+    {
+      "id": "C105",
+      "image": "https://i.ibb.co/HYYqfft/course-image-5.webp",
+      "title": "Digital Marketing Strategies",
+      "credit_hour": 4,
+      "price": 229.99,
+      "course_details": "Develop effective digital marketing strategies, including SEO, social media marketing, and email marketing. Drive online success."
+    },
+    {
+      "id": "C106",
+      "image": "https://i.ibb.co/QCwHpGT/course-image-6.webp",
+      "title": "Mobile App Development",
+      "credit_hour": 5,
+      "price": 319.99,
+      "course_details": "Build mobile apps for iOS and Android platforms. Learn about app design, development, and deployment."
+    },
+    {
+      "id": "C107",
+      "image": "https://i.ibb.co/NmKr0q4/course-image-7.webp",
+      "title": "Business Ethics and Leadership",
+      "credit_hour": 3,
+      "price": 199.99,
+      "course_details": "Explore the principles of ethical leadership and decision-making in business. Foster a culture of integrity and responsibility."
+    },
+    {
+      "id": "C108",
+      "image": "https://i.ibb.co/VpnWkTZ/course-image-8.webp",
+      "title": "Artificial Intelligence Fundamentals",
+      "credit_hour": 4,
+      "price": 279.99,
+      "course_details": "Discover the basics of artificial intelligence and machine learning. Develop AI-powered applications and solutions."
+    },
+    {
+      "id": "C109",
+      "image": "https://i.ibb.co/YZQM6q3/course-image-9.webp",
+      "title": "Cybersecurity Essentials",
+      "credit_hour": 5,
+      "price": 349.99,
+      "course_details": "Learn essential cybersecurity concepts and practices to protect organizations from cyber threats. Secure data and systems."
+    }
+  ]
+  
