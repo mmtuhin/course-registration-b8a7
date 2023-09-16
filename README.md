@@ -8,10 +8,7 @@ This site provide learner to learn from qualitiful resources.
     - Props Validation
     - 3rd party icons
 2. Managing States in this project
-    - [x] #739
-    - [x] #739
-    - [x] #739
-    - [x] #739
-    - [x] #739
-    - [x] #739
+    - [x] Importing react built in hooks and initializing it.
+    - [x] Updating declared state
+    - [x] Rendering the components
 
