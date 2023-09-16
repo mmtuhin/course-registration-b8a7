@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import Cart from './components/cart/Cart'
 import Courses from './components/courses/Courses'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [cartItem, setCartItem ] = useState([])
@@ -29,23 +31,24 @@ function App() {
         setCartItem(newCartItems);
         setTotalCredit(newTotalCredit);
     } else {
-        alert("No more credit");
+      toast("You can't take more than 20 credits!");
     }
     }
     else{
-      alert("Item is already added")
+      toast("This course is already added!")
     }
   }
   
 
   return (
     <>
-    <div className='bg-gray-300'>
+    <div className='bg-gray-300 px-4'>
       <h1 className='text-3xl font-bold text-center py-6'>Course Registration</h1>
       <div className='grid grid-cols-4 gap-3'>
         <Courses handleAddCourse={handleAddCourse}></Courses>
         <Cart cartItem={cartItem} totalCredit={totalCredit}></Cart>
       </div>
+      <ToastContainer></ToastContainer>
       
     </div>
       

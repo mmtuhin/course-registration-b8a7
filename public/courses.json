@@ -27,7 +27,7 @@
       "id": "C104",
       "image": "https://i.ibb.co/xhLk4ks/course-image-4.webp",
       "title": "Graphic Design Basics",
-      "credit_hour": 3,
+      "credit_hour": 5,
       "price": 179.99,
       "course_details": "Learn the basics of graphic design, including principles of layout, typography, and color theory. Create stunning visual designs."
     },
@@ -35,7 +35,7 @@
       "id": "C105",
       "image": "https://i.ibb.co/HYYqfft/course-image-5.webp",
       "title": "Digital Marketing Strategies",
-      "credit_hour": 4,
+      "credit_hour": 6,
       "price": 229.99,
       "course_details": "Develop effective digital marketing strategies, including SEO, social media marketing, and email marketing. Drive online success."
     },
