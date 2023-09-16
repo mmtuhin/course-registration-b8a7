@@ -13,7 +13,7 @@ const Courses = ({handleAddCourse}) => {
         .then(data => setCourses(data))
     },[])
     return (
-        <div className="grid grid-cols-3 gap-4 col-span-3">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 col-span-3">
             {
                 courses.map(course => <Course key={course.id} course={course} handleAddCourse={handleAddCourse}></Course>)
             }

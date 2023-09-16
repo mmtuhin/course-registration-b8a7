@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const Cart = ({cartItem, totalCredit}) => {
     
-    console.log(typeof totalCredit);
+    //console.log(typeof totalCredit);
     //console.log(cartItem);
     
     
