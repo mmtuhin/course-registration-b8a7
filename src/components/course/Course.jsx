@@ -2,7 +2,7 @@ import { FaDollarSign } from 'react-icons/fa';
 import { FaBookOpen } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 const Course = ({course , handleAddCourse}) => {
-    const {id, image,title,credit_hour,price,course_details } = course
+    const { image,title,credit_hour,price,course_details } = course
     return (
         <div className=''>
             <div className='flex flex-col h-full p-4 bg-white rounded-xl'>
